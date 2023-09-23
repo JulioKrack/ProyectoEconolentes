@@ -1,3 +1,4 @@
+/* para todos */
 header{
     padding: 40px;
     background: #E1E1E1;
@@ -9,6 +10,8 @@ body{
     text-align: center;
 }
 
+
+/* para las tablas de las gestiones */
 table{
     border: 2px solid black;
     border-collapse: collapse;
@@ -23,6 +26,7 @@ th{
     border: 3px solid black;
 }
 
+/* para el menu de las gestiones */
 .enlaces{
     text-align: right;
 
@@ -33,29 +37,33 @@ th{
     padding-inline: 5px;
 }
 
+
 .contenedor{
     display: flex;
 }
 .gestiones {
     display: flex;
     flex-direction: column;
-    height: 100vh; /* Ocupa el 100% de la altura vertical de la ventana */
-    max-height: 100vh; /* Altura máxima igual al 100% de la altura de la ventana */
+    height: 100vh; 
+    max-height: 100vh; 
     width: 200px;
     padding: 20px;
-    background-color: #f0f0f0; /* Aplicando el fondo a la sección gestiones */
-    overflow-y: auto; /* Agrega desplazamiento vertical si es necesario */
+    background-color: #f0f0f0; 
+    overflow-y: auto; 
 }
 
 .gestiones h2 {
-    margin: 10px 0; /* Establece el espaciado uniforme verticalmente: 10px arriba y abajo */
+    margin: 10px 0; 
     padding: 10px;
-    flex: 1; /* Hace que cada h2 ocupe todo el espacio vertical disponible */
+    flex: 1;
 }
+
 
 .tabla{
     padding: 15px;
 }
+
+/* para las selecciones de las gestiones */
 .usuario{
     border:blue 2px solid;
     background-color: #76C6F4 ;
@@ -75,11 +83,14 @@ th{
     text-decoration: none;
 }
 
+/*diseño del boto*/
 .boton{
     background-color: #0067A3;
     font-size: 15px;
     color: white;
 }
+
+/*para el formulario de las gestiones*/
 .filtrar{
     padding: 20px;
     width: 93%;
@@ -98,4 +109,50 @@ th{
 .ingreso-datos label{
     padding: 10px;
     margin: 10px;
+}
+
+/* para el responsive*/
+@media (min-width: 1200px) {
+    .contenedor {
+        flex-direction: row;
+    }
+
+    .gestiones {
+        max-height: 100vh;
+    }
+
+    .tabla {
+        max-width: 70%; 
+    }
+
+}
+
+@media (max-width: 1199px) {
+    .contenedor {
+        flex-direction: column;
+    }
+
+    .gestiones {
+        max-height: none;
+    }
+
+    .tabla {
+        max-width: 90%; 
+    }
+
+}
+
+@media (max-width: 767px) {
+    .contenedor {
+        flex-direction: column;
+    }
+
+    .gestiones {
+        max-height: none;
+    }
+
+    .tabla {
+        max-width: 100%; 
+    }
+
 }
