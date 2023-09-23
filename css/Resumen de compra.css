@@ -1,0 +1,60 @@
+.container {
+	height: 100%;
+  	margin: 0;
+ 	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+.contenedor {
+	display: flex;
+}
+.center{
+	text-align: center;
+}
+.botones{
+	background: rgb(228, 228, 228);
+	color: #333;
+	border: 1px solid #333;
+	margin:0 auto;
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 10px 10px #888;
+	width: 23%;
+	box-sizing: border-box;
+}
+.column {
+	flex: 1;
+	padding: 20px;
+	border: 1px solid #ccc;
+	margin: 10px;
+}
+.form{
+    display: flex;
+}
+.columna1 {
+	flex: 1;
+	padding: 5px;
+	margin: 5px;
+	text-align: right;
+}
+.columna2 {
+	flex: 1;
+	padding: 0;
+	margin: 5px;
+}
+.btn-precio{
+	background: salmon;
+	display: block;
+	padding: 10px;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 3px;
+	margin-bottom: 10px;
+}
+.btn-precio:hover{
+	background: rgba(247,100,84);
+}
+.linea-vertical {
+	border-left: 1px solid black; /* Establece un borde izquierdo */
+	height: 500px; /* Establece la altura de la línea vertical */
+}
