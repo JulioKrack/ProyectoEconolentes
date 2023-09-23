@@ -56,3 +56,9 @@ th{
 .tabla{
     padding: 15px;
 }
+.usuario{
+    border:blue 2px solid;
+    background-color: #76C6F4 ;
+    background-size: cover;
+    text-decoration: none;
+}
