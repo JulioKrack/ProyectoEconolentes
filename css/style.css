@@ -1,1 +1,67 @@
+.nombre-del-sitio{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: 2px;
+    display: block;
+    font-size: 35px;
+}
 
+.inicio{
+    text-align: right;    
+}
+.inicio a{
+    padding: 10px;
+    margin: 20px;
+    border: solid;
+    border-radius: 15px;
+    border-color: #000;
+    background-color: #000;
+    text-decoration: none;
+}
+
+.navegacion-principal{
+    border: #979494ff;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 2px;
+    padding-top: 10px;
+}
+
+.fondo{
+    background-image: url(../img/fondo-lentes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 550px;
+}
+
+.secciones{
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+}
+.secciones a{
+    text-decoration: none;
+    color: #000;
+}
+
+.texto-nosotros{
+    text-align: center;
+
+}
+
+.sobre-nosotros{
+    text-align: center;
+}
+
+.mision-flex{
+    display:flex;
+    justify-content: center;
+}
+
+.numero-celular{
+    text-decoration: none;
+    color: #000;
+}
