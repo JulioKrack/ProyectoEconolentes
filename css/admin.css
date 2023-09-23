@@ -62,3 +62,33 @@ th{
     background-size: cover;
     text-decoration: none;
 }
+.producto{
+    border:blue 2px solid;
+    background-color: #76C6F4 ;
+    background-size: cover;
+    text-decoration: none;
+}
+.empleado{
+    border:blue 2px solid;
+    background-color: #76C6F4 ;
+    background-size: cover;
+    text-decoration: none;
+}
+
+.boton{
+    background-color: #0067A3;
+    font-size: 15px;
+    color: white;
+}
+
+.ingreso-datos{
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ingreso-datos label{
+    padding: 10px;
+    margin: 10px;
+}

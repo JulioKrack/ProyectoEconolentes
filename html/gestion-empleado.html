@@ -28,7 +28,28 @@
         </div>
 
         <div class="tabla">
-            <label>Buscar: <input type="text" id="buscar" name="buscar" /></label>
+            <div class="datos-botones">
+                <div class="ingreso-datos">
+                    <label>Código: <input type="text" id="buscar" name="buscar" /></label>
+                    <label>Nombre: <input type="text" id="nombre" name="nombre" /></label>
+                    <label>Apellido: <input type="text" id="apellido" name="apellido" /></label>
+                    <label>Rol: 
+                    <select name="rol" id="rol">
+                      <option value="saab">Venta</option>
+                      <option value="opel">Administrador</option>
+                    </select></label>
+                    <label>Teléfono: <input type="text" id="telefono" name="telefono" /></label>
+                    <label>Correo: <input type="text" id="correo" name="correo" /></label>
+                    <label>Estado: <input type="text" id="estado" name="estado" /></label>
+                </div>
+                <div class="botones">
+                    <button type="button" class="boton">Agregar</button>
+                    <button type="button" class="boton">Modificar</button>
+                    <button type="button" class="boton">Eliminar</button>
+            </div>
+
+
+
             <p>Resultados</p>
             <table>
                 <tr>
