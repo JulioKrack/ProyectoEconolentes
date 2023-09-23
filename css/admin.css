@@ -80,6 +80,13 @@ th{
     font-size: 15px;
     color: white;
 }
+.filtrar{
+    padding: 20px;
+    width: 93%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+}
 
 .ingreso-datos{
     padding: 15px;
